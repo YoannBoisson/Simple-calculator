@@ -1,0 +1,53 @@
+body {
+    background-color: #576574;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    border: solid 1px #01a3a4;
+    color: #00d2d3;
+}
+
+label {
+    font-style: verdana;
+    color: #01a3a4;
+    font-weight: bold;
+}
+
+input {
+    background-color: #222f3e;
+    color: #c8d6e5;
+    font-weight: bold;
+    text-align: center;
+}
+
+select,
+button {
+    background-color: #222f3e;
+    color: #c8d6e5;
+}
+
+.saisie {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    justify-content: center;
+    display: flex;
+}
+
+#resultat {
+    color: #01a3a4;
+    font-size: 5rem;
+    position: absolute;
+    background-color: white;
+    margin: 2rem;
+    border: solid 2px #222f3e;
+    padding: 2rem;
+    max-width: 80vw;
+}
